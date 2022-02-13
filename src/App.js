@@ -1,5 +1,7 @@
 import { IteracionPorKey } from "./components/IteracionPorKey";
 import { IterracionArrays } from "./components/IterracionArrays";
+import { Props } from "./components/Props";
+import { Hooks } from "./components/Hooks";
 
 function App() {
  
@@ -7,6 +9,8 @@ function App() {
     <>
       <IterracionArrays/>
       <IteracionPorKey/>
+      <Props Nombre={'David'} Apellido={'Hernández'} />
+      <Hooks/>
     </>
   );
 }
